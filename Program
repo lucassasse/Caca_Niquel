@@ -1,0 +1,51 @@
+using System;
+    namespace Caça_Niquel {
+        class System {
+            static void Main(string[] args) {
+
+            int totalFichas = 10;
+            int escolha;
+            Random numeroAleatorio = new Random(DateTime.Now.Millisecond);
+            string num1, num2, num3;
+            Console.WriteLine("Você possui um total de: " + totalFichas + " fichas.");
+            Console.WriteLine("A cada partida você utilizará 1 ficha.");
+            Console.WriteLine("Para jogar, utilize uma ficha digitando 1 || Para sair, digite 2.");
+            escolha = int.Parse(Console.ReadLine());
+            Console.WriteLine();
+
+            while (escolha == 1)
+            {
+                num1 = numeroAleatorio.Next(1, 4).ToString();
+                num2 = numeroAleatorio.Next(1, 4).ToString();
+                num3 = numeroAleatorio.Next(1, 4).ToString();
+                Console.Write("[" + num1 + "] [" + num2 + "] [" + num3 + "] - ");
+
+                if (num1 == num2 && num1 == num3)
+                {
+                    Console.WriteLine("Parabéns, você ganhou!");
+                    totalFichas++;
+                }
+                else
+                {
+                    totalFichas--;
+                    Console.WriteLine("Não foi dessa vez.");
+                }
+
+                Console.WriteLine("Seu total de fichas é: " + totalFichas);
+                Console.WriteLine("Para continuar, utilize uma ficha digitando 1 || Para sair, digite 2.");
+                escolha = int.Parse(Console.ReadLine());
+                if (totalFichas <= 0)
+                {
+                    Console.WriteLine("Lamento, mas suas fichas acabaram.");
+                    escolha = 2;
+                }
+                Console.WriteLine();
+            }
+
+            Console.WriteLine();
+            Console.WriteLine("Seu total de fichas foi de: " + totalFichas);
+
+            Console.ReadLine();
+        }
+    }
+}
