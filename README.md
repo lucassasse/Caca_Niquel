@@ -1,3 +1,3 @@
 # Caca_Niquel
 
-Primeiro projeto, utilizado utilizar os conhecimentos adquiridos.
+Primeiro projeto, buscando utilizar os conhecimentos adquiridos.
