@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>CASSINO</title>
+</head>
+
+<body>
+    
+    <header>
+
+        <div class='header-border'>
+            <div id="logo">
+                CASSINO
+            </div>
+
+            <nav class="menu">
+                <ul>
+                    <li><a href="https://www.instagram.com/sasse.lucas/" target="_blank"><img src="imagens/icon_instagram.png" alt="instagram"></a></li>
+                    <li><a href="https://www.linkedin.com/in/lucas-eduardo-sasse-4395311a9/" target="_blank"><img src="imagens/icon_linkedin.png" alt="linkedin"></a></li>
+                    <li><a href="https://github.com/lucassasse" target="_blank"><img src="imagens/icon_github.png" alt="github"></a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <nav class="navigation">
+            <ul>
+                <li><a href="mais-jogos.html">Mais Jogos</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+
+    </header>
+
+
+    <section>
+
+        <aside>
+
+            <section id="asideCima">
+                <h2>SALDO / FICHAS</h2>
+                <p id="saldo">Seu saldo é de R$: 25,00</p>
+                <p id="fichas">Quantidade de Fichas: 10</p>
+            </section>
+
+            <section id="asideBaixo">
+                <h2>Lojinha</h2>
+                <p><button onclick="ComprarFichas(1, 1)">R$ 1,00</button></p>
+                <p><button onclick="ComprarFichas(10, 12)">R$ 10,00</button></p>
+                <p><button onclick="ComprarFichas(50, 70)">R$ 50,00</button></p>
+                <p><button onclick="ComprarFichas(100, 150)">R$ 100,00</button></p>
+                <p><img src="imagens/tabela-precos.png" alt="Tabela de preços de fichas" id="imgTabelaPreco"></p>
+            </section>
+
+        </aside>
+
+        <main>
+            <h2>CAÇA NÍQUEL</h2>
+            <p>Jogar: -1 Fichas</p>
+            <p>Vitória: +10 Fichas</p>
+            <button onclick="verificacaoFichas()">Jogar</button>
+            <p id="numeros-sorteados"> 0 | 0 | 0</p>
+            <p id="resultado"> </p>
+        </main>
+
+    </section>
+
+
+    <footer>
+
+        
+        
+    </footer>
+
+</body>
+
+
+
+
+<!-- 
+<body>
+
+
+    <h1>CASSINO</h1>
+
+    <a href="https://www.instagram.com/sasse.lucas/" target="_blank"><img src="imagens/icon_instagram.png"
+            alt="icone do instagram"></a>
+    <a href="https://github.com/lucassasse" target="_blank"><img src="imagens/icon_github.png"
+            alt="icone do github"></a>
+
+
+    <button>Outros Jogos</button>
+    <button>Loja</button>
+    <button>Sobre</button>
+
+    <input type="text" id="txtBusca" value="" placeholder="Pesquisar...">
+    <img src="imagens/icon_lupa.png" id="btnBusca" alt="lupa">
+
+
+    <h2>SALDO / FICHAS</h2>
+    <p id="saldo">Seu saldo é de R$: 25,00</p>
+    <p id="fichas">Quantidade de Fichas: 10</p>
+
+
+    <h2>Lojinha</h2>
+    <p><button onclick="ComprarFichas(1, 1)">R$ 1,00</button></p>
+    <p><button onclick="ComprarFichas(10, 12)">R$ 10,00</button></p>
+    <p><button onclick="ComprarFichas(50, 70)">R$ 50,00</button></p>
+    <p><button onclick="ComprarFichas(100, 150)">R$ 100,00</button></p>
+    <p><img src="imagens/tabela-precos.png" alt="Tabela de preços de fichas"></p>
+
+
+    <h2>CAÇA NÍQUEL</h2>
+    <p>Jogar: -1 Fichas</p>
+    <p>Vitória: +10 Fichas</p>
+    <button onclick="verificacaoFichas()">Jogar</button>
+    <p id="numeros-sorteados"> 0 | 0 | 0</p>
+    <p id="resultado"> </p>
+
+</body>
+-->
+<script type="text/javascript" src="index.js"></script>
+
+
+</html>
