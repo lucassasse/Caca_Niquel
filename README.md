@@ -1,3 +1,3 @@
-# Caca_Niquel
+# JackPot
 
 Primeiro projeto, buscando utilizar os conhecimentos adquiridos.
