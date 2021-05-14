@@ -67,5 +67,51 @@ function ComprarFichas(dinheiroLoja, fichasLoja){
     )
 }
 
-//Arrumar as CSS + Transformar em responsivo
-//Substituir os números por imagens
+/*
+JAVASCRIPT
+var numeros = [0, 0, 0]
+var lista = document.querySelector('#ul li')
+var imagem = ['https://st.depositphotos.com/1780879/3816/i/600/depositphotos_38166573-stock-photo-trees-with-sunbeams.jpg', 'https://www.bambui.ifmg.edu.br/portal_padrao_joomla/joomla/images/phocagallery/galeria2/thumbs/phoca_thumb_l_image04_grd.png', 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMzfv4LleAcIFcICa2bOoIiWIJS3cinc3cNA&usqp=CAU']
+
+function gerarNumero(){
+  //lista.innerHTML = ''
+  for (var i = 0; i < numeros.length; i++){
+    numeros[i] = Math.floor(Math.random() * 3)
+  }
+  imprimirImg()
+}
+
+function imprimirImg(){
+  lista.innerHTML = ''
+  
+  for (var i = 0; i < numeros.length; i++){
+    var resultado = imagem[numeros[i]]
+    var template = `<img src="${resultado}">`
+    var li = document.createElement('li')
+    li.innerHTML = template
+    lista.append(li)
+  }
+}
+
+----------------------------------
+CSS
+
+img{
+  max-height: 100px;
+}
+
+li{
+  display: flex;
+  margin: 5px;
+}
+
+----------------------------------
+HTML
+
+<button id='jogar' onclick='gerarNumero()'>Jogar</button>
+<div>
+  <ul id='ul'>
+    <li id='li' style='list-style:none'></li> // Talvez não precisa deste linha - testar
+  </ul>
+</div>
+*/
