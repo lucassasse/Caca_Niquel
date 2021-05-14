@@ -1,25 +1,42 @@
 *{
-    background-color: lightgrey;
+    box-sizing: border-box;
     font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
     margin: 0;
+    padding: 0;
 }
 
-.header-top{
+header{
+    background-color: gray;
+    background-size: cover;
+    background-position: bottom;
+    position: relative;
+}
+
+.logo{
+    width: 200px;
+    color: white;
+    line-height: 60px;
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    text-shadow: black 1px 1px 6px;
+}
+
+.redes-sociais{
     display: flex;
-    justify-content: space-between;
-    min-height: 100px;
-}
-
-nav{
-    min-height: 50px;
-}
-
-li{
+    justify-content: flex-end;
     list-style: none;
+    padding: 0;
 }
 
-ul{
+.nav-links{
     display: flex;
+    justify-content: space-around;
+    list-style: none;
+    padding: 0;
 }
 
 img{
