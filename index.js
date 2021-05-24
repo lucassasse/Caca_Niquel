@@ -2,7 +2,7 @@
 
 var numeros = [0, 0, 0]
 var dinheiro = 250
-var fichas = 100
+var fichas = 10
 
 atualizarFichas(0)
 atualizarDinheiro(0)
