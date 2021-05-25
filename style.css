@@ -1,9 +1,25 @@
 *{
-    background-color: rgb(233, 233, 233);
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 0 50px;
 }
 
-main{
-    background: lightgrey;
+header{
+    background-color: lightgrey;
+}
+
+header nav.nave-top{
+    display: flex;
+    justify-content: space-around;
+}
+
+header ul.redes-sociais{
+    display: flex;
+}
+
+header ul li{
+    list-style: none;
+    margin: 10px;
+}
+
+header ul li a{
+    margin: 20px 5px;
 }
