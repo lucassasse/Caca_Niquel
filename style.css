@@ -87,3 +87,21 @@ nav ul.lista-meio button:hover{
 
 /*-------------------------------------*/
 /*-------------------------------------*/
+
+main{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(127, 127, 127, 20%);
+    max-width: 1000px;
+    height: 500px;
+    margin: 5px auto 0px auto;
+    border: 2px solid gray;
+}
+
+main form{
+    width: 600px;
+}
+
+main div{
+    width: 300px;
+}
