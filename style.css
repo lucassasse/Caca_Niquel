@@ -4,9 +4,15 @@
     border: 0;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
 header{
     background-color: rgba(127, 127, 127, 20%);
-    margin: 0px 200px;
+    max-width: 1000px;
+    margin: auto;
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     border-top: 2px solid gray;
@@ -37,10 +43,6 @@ header ul.redes-sociais{
     padding: 0;
 }
 
-header ul a{
-    list-style: none;
-}
-
 header ion-icon{
     margin-top: 55px;
     margin-right: 25px;
@@ -53,4 +55,35 @@ header ion-icon:hover{
     margin-top: 50px;
 }
 
+/*-------------------------------------*/
+/*-------------------------------------*/
+
+nav.nav-meio{
+    background-color: rgba(127, 127, 127, 20%);
+    max-width: 1000px;
+    height: 50px;
+    margin: auto;
+    border: 2px solid gray;
+}
+
+nav ul.lista-meio{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav ul.lista-meio button{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.479);
+}
+
+nav ul.lista-meio button:hover{
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+/*-------------------------------------*/
 /*-------------------------------------*/
