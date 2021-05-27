@@ -32,13 +32,40 @@
 
     <main>
         <form action="">
-            formulário (nome + e-mail + mensagem)
+            <h2>Formulário para Contato:</h2>
+            <label for="nome">Nome:</label>
+            <input type="text" name="nome" required>
+            <label for="email">E-mail:</label>
+            <input type="email" name="email" required>
+            <label for="motivo">Motivo do Contato:</label>
+            <select name="motivo" id="motivo">
+                <option value="selecione" selected disabled>Selecione</option>
+                <option value="duvida">Dúvidas gerais</option>
+                <option value="problema">Relatar problema</option>
+                <option value="sugestão">Sugestão</option>
+                <option value="outros">Outros</option>
+            </select>
+            <label for="mensagem">Mensagem</label>
+            <textarea name="mensagem" id="mensagem" cols="40" rows="8"></textarea>
+            <button type="submit">Enviar</button>
         </form>
-
-        <div>
-            dados + endereço
-        </div>
     </main>
+
+    <footer>
+            <div>
+                criador por
+            </div>
+            <div>
+                contato
+            </div>
+    </footer>
+    <!--<div>
+        dados + endereço
+        <h2>Dados:</h2>
+        <p>Lucas Eduardo Sasse</p>
+        <p>Santa Catarina - Brasil</p>
+        <p>Copyright © 2021 <strong>Lucas Eduardo Sasse</strong>. Todos os direitos reservados</p>
+    </div>-->
 
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
 </body>
