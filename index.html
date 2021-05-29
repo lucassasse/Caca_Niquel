@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="estilos/style-geral.css">
+    <link rel="stylesheet" href="estilos/style-index.css">
     <title>JACKPOT</title>
 </head>
 
@@ -32,42 +33,39 @@
         </ul>
     </nav>
 
+    <main>
 
-    <section>
-
-        <aside>
-
-            <section id="aside-top">
+        <section id="cima">
+            <div>
                 <h2>SALDO</h2>
                 <p id="saldo">Seu saldo é de R$: 25,00</p>
+            </div>
+            <div>
                 <h2>FICHAS</h2>
                 <p id="fichas">Quantidade de Fichas: 10</p>
-            </section>
-
-            <section id="aside-bottom">
-                <h2>Lojinha</h2>
-                <p><button onclick="ComprarFichas(1, 1)">R$ 1,00</button></p>
-                <p><button onclick="ComprarFichas(10, 12)">R$ 10,00</button></p>
-                <p><button onclick="ComprarFichas(50, 70)">R$ 50,00</button></p>
-                <p><button onclick="ComprarFichas(100, 150)">R$ 100,00</button></p>
-                <p><img src="imagens/tabela-precos.png" alt="Tabela de preços de fichas" id="imgTabelaPreco"></p>
-            </section>
-
-        </aside>
-
-        <main>
-            <h2>CAÇA NÍQUEL</h2>
-            <p>Jogar: -1 Fichas</p>
-            <p>Vitória: +10 Fichas</p>
-            <button onclick="verificacaoFichas()">Jogar</button>
-            <div>
-                <p id="numeros-sorteados"> 0 | 0 | 0</p>
-                <p id="resultado"> </p>
             </div>
-        </main>
+        </section>
 
-    </section>
-    
+        <section id="baixo">
+            <div id="infos">
+                <h2>CAÇA NÍQUEL</h2>
+                <p>Jogar: -1 Fichas</p>
+                <p>Vitória: +10 Fichas</p>
+            </div>
+            
+            <button onclick="verificacaoFichas()">Jogar</button>
+
+            <div>
+                <ul id='ul'>
+                    <li id='li' style='list-style:none'></li>
+                    <li> <img src="imagens/imgCereja.png" alt=""></li>
+                    <li> <img src="imagens/imgCereja.png" alt=""></li>
+                    <li> <img src="imagens/imgCereja.png" alt=""></li>
+                </ul>
+            </div>  
+        </section>
+        
+    </main>    
 
     <footer>
         <div id="localizacao-desenvolvido">

@@ -1,0 +1,53 @@
+main{
+    display: flex;
+    flex-direction: column;
+    background-color: rgba(127, 127, 127, 20%);
+    max-width: 1500px;
+    height: 500px;
+    margin: 5px auto 0px auto;
+    border: 2px solid gray;
+    align-items: center;
+    text-align: center;
+}
+
+main section#cima{
+    display: flex;
+}
+
+main section#cima div{
+    padding: 25px 75px;
+}
+
+main section#baixo div#infos{
+    padding: 10px 0 50px 0;
+}
+
+main section#baixo button{
+    width: 100px;
+    height: 30px;
+    font-size: 16px;
+    border: 1px solid rgb(100, 31, 31);
+    box-shadow: 2px 2px 5px rgba(136, 60, 60, 0.479);
+    background-color: rgb(207, 37, 37);
+    color: white;
+    border-radius: 10px;
+}
+
+main section#baixo button:hover{
+    background-color: rgb(119, 15, 15);
+    cursor: pointer;
+}
+
+main section#baixo div ul{
+    display: flex;
+    padding: 75px 0 0 0;
+}
+
+main section#baixo div ul li{
+    display: flex;
+    margin: 5px;
+  }
+
+main section#baixo div ul li img{
+    max-height: 100px;
+}

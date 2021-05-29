@@ -31,6 +31,22 @@
 
     <main>
 
+        <section id="aside-top">
+            <h2>SALDO</h2>
+            <p id="saldo">Seu saldo é de R$: 25,00</p>
+            <h2>FICHAS</h2>
+            <p id="fichas">Quantidade de Fichas: 10</p>
+        </section>
+
+        <section id="aside-bottom">
+            <h2>Lojinha</h2>
+            <p><button onclick="ComprarFichas(1, 1)">R$ 1,00</button></p>
+            <p><button onclick="ComprarFichas(10, 12)">R$ 10,00</button></p>
+            <p><button onclick="ComprarFichas(50, 70)">R$ 50,00</button></p>
+            <p><button onclick="ComprarFichas(100, 150)">R$ 100,00</button></p>
+            <p><img src="imagens/tabela-precos.png" alt="Tabela de preços de fichas" id="imgTabelaPreco"></p>
+        </section>
+
     </main>
 
     <footer>
@@ -53,5 +69,6 @@
     </footer>
 
     <script src="https://unpkg.com/ionicons@5.1.2/dist/ionicons.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>
