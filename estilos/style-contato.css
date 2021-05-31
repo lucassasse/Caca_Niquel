@@ -11,7 +11,6 @@ main{
 main form{
     display: flex;
     flex-direction: column;
-    /*width: 950px;*/
     padding: 0px 25px;
     background-color: rgba(127, 127, 127, 20%);
     border: 1px solid gray;
@@ -25,17 +24,24 @@ main form h2{
 
 main form label{
     margin: auto;
-    padding-top: 13px;
+    padding-top: 5px;
+    margin-bottom: 0;
 }
 
 input, select, textarea{
     margin: auto;
     border: 1px solid black;
     border-radius: 5px;
+    margin-top: 1px;
+}
+
+textarea{
+    margin-bottom: 1px;
 }
 
 main form button{
     height: 30px;
+    width: 75px;
     margin: auto;
     border: 1px solid black;
     border-radius: 5px;

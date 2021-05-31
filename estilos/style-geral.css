@@ -5,11 +5,6 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-}
-
 header{
     background-color: rgba(127, 127, 127, 20%);
     max-width: 1500px;
@@ -23,65 +18,59 @@ header{
 
 header nav.nav-top{
     display: flex;
-    justify-content: space-between;
-    margin: 0;
-    height: 150px;
-}
-
-header div.logo{
-    margin: 0;
+    flex-wrap: wrap;
+    justify-content: space-around;
 }
 
 header img{
     width: 150px;
-    margin: 18px 0px 0px 60px;
+    margin: 10px 30px;
 }
 
-header ul.redes-sociais{
+header nav div{
     display: flex;
-    border: 0;
-    margin: 0;
-    padding: 0;
+    align-items: center;
 }
 
 header ion-icon{
-    margin-top: 55px;
-    margin-right: 25px;
     width: 40px;
     height: 40px;
+    padding: 15px 10px;
     color: black;
 }
 
 header ion-icon:hover{
-    margin-top: 50px;
+    margin-bottom: 5px;
 }
 
 /*-------------------------------------*/
 /*-------------------------------------*/
 
 nav.nav-meio{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
     background-color: rgba(127, 127, 127, 20%);
     max-width: 1500px;
-    height: 50px;
     margin: auto;
     border: 2px solid gray;
 }
 
-nav ul.lista-meio{
-    display: flex;
-    justify-content: space-around;
-}
-
-nav ul.lista-meio button{
+nav.nav-meio a{
+    height: 20px;
+    padding: 5px;
+    margin: 8px 10px;
     background-color: white;
+    text-decoration: none;
+    color: black;
     border: 1px solid black;
     border-radius: 5px;
-    padding: 5px;
-    margin-top: 10px;
+
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.479);
 }
 
-nav ul.lista-meio button:hover{
+nav.nav-meio a:hover{
     background-color: lightgray;
     cursor: pointer;
 }
@@ -91,10 +80,10 @@ nav ul.lista-meio button:hover{
 
 footer{
     display: flex;
-    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
     background-color: rgba(127, 127, 127, 20%);
     max-width: 1500px;
-    height: 150px;
     margin: 5px auto 0px auto;
     border: 2px solid gray;
     border-bottom-left-radius: 50px;
@@ -102,15 +91,11 @@ footer{
     text-align: center;
 }
 
-footer div#localizacao-desenvolvido{
-    display: flex;
-    justify-content: space-around;
-}
-
-footer div#desenvolvido{
-    margin: auto;
+footer div{
+    padding: 10px 25px;
 }
 
 footer div#contato p a{
     color: #34af23;
+    text-decoration: none;
 }

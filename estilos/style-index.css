@@ -3,7 +3,7 @@ main{
     flex-direction: column;
     background-color: rgba(127, 127, 127, 20%);
     max-width: 1500px;
-    height: 500px;
+    min-height: 500px;
     margin: 5px auto 0px auto;
     border: 2px solid gray;
     align-items: center;
@@ -40,6 +40,8 @@ main section#baixo button:hover{
 
 main section#baixo div ul{
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     padding: 75px 0 0 0;
 }
 
