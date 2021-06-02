@@ -46,8 +46,8 @@ main section#baixo div ul{
 }
 
 main section#baixo div ul li{
-    display: flex;
     margin: 5px;
+    list-style: none;
   }
 
 main section#baixo div ul li img{
