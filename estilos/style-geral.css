@@ -40,7 +40,7 @@ header ion-icon{
 }
 
 header ion-icon:hover{
-    margin-bottom: 5px;
+    transform: scale(1.12);
 }
 
 /*-------------------------------------*/
