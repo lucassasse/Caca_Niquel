@@ -10,46 +10,44 @@ main{
     text-align: center;
 }
 
-main section#cima{
+main section#cima {
+    width: 100%;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
 }
 
-main section#cima div{
-    padding: 25px 75px;
+main section#cima div#quantidade-saldo, div#quantidade-fichas{
+    margin: 30px 30px 0px 30px;
 }
 
-main section#baixo div#infos{
-    padding: 10px 0 50px 0;
+main section#baixo div{
+    margin: 40px 70px 70px 70px;
 }
 
-main section#baixo button{
-    width: 100px;
-    height: 30px;
-    font-size: 16px;
-    border: 1px solid rgb(100, 31, 31);
-    box-shadow: 2px 2px 5px rgba(136, 60, 60, 0.479);
-    background-color: rgb(207, 37, 37);
-    color: white;
-    border-radius: 10px;
+main section#baixo img#botao-play{
+    width: 150px;
+    border-radius: 70px 75px 30px 30px;
 }
 
-main section#baixo button:hover{
-    background-color: rgb(119, 15, 15);
+main section#baixo img#botao-play:hover{
     cursor: pointer;
 }
 
-main section#baixo div ul{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    padding: 75px 0 0 0;
+main section#baixo img#botao-play:active{
+    content: url(../imagens/imgButtonVerde.png);
 }
 
-main section#baixo div ul li{
-    margin: 5px;
-    list-style: none;
-  }
+main section#baixo div#tela-imagens{
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: gray;
+}
 
-main section#baixo div ul li img{
+main section#baixo div#tela-imagens img.img{
     max-height: 100px;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin: 5px;
 }
