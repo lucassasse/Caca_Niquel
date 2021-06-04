@@ -79,9 +79,7 @@ nav.nav-meio a:hover{
 /*-------------------------------------*/
 
 footer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
+    
     background-color: rgba(127, 127, 127, 20%);
     max-width: 1500px;
     margin: 5px auto 0px auto;
@@ -95,7 +93,20 @@ footer div{
     padding: 10px 25px;
 }
 
+footer div#localizacao-desenvolvido{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
 footer div#contato p a{
     color: #34af23;
     text-decoration: none;
+}
+
+footer div#contato p ion-icon{
+    margin-bottom: -4px;
+    color: #34af23;
+    width: 20px;
+    height: 20px;
 }
