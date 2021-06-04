@@ -27,6 +27,12 @@ header img{
     margin: 10px 30px;
 }
 
+header img:hover{
+    transition: 1s;
+    transform: rotate(360deg);
+    cursor: pointer;
+}
+
 header nav div{
     display: flex;
     align-items: center;
