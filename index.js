@@ -4,7 +4,8 @@ var numeros = [0, 0, 0]
 var dinheiro = 250
 var fichas = 10
 
-var lista = document.querySelector(".img")
+var listaImagens = document.querySelectorAll('.img')
+
 var imagens = [
 'imagens/imgBar.png',
 'imagens/imgCereja.png',
@@ -32,18 +33,11 @@ function verificacaoResultado(){
     return resultado
 }
 
-/**************************************/
-/**************************************/
-
 function imprimirImg(){
     for (var i = 0; i < numeros.length; i++){
-        var resultado = imagens[numeros[i]]
-        lista.innerHTML = `<li> <img src="${resultado}" alt=""></li>`
+        listaImagens[i].src = imagens[numeros[i]]
     }
 }
-
-/**************************************/
-/**************************************/
 
 function cliqueBotao(){
     if (fichas > 0) {
