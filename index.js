@@ -61,10 +61,19 @@ function atualizarDinheiro(valor){
     elemento.innerHTML = "Seu saldo é de R$: " + dinheiro + ",00"
 }
 
-function ComprarFichas(dinheiroLoja, fichasLoja){
+function comprarFichas(dinheiroLoja, fichasLoja){
     if (dinheiro >= dinheiroLoja) {
         atualizarFichas(fichasLoja)
         atualizarDinheiro(-dinheiroLoja)
+    } else (
+        alert("Saldo insuficiente")
+    )
+}
+
+function trocarFichas(dinheiroLoja, fichasLoja){
+    if (fichas >= fichasLoja && fichas > 0) {
+        atualizarFichas(-fichasLoja)
+        atualizarDinheiro(dinheiroLoja)
     } else (
         alert("Saldo insuficiente")
     )

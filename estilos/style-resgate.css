@@ -9,7 +9,7 @@ main{
     border: 2px solid gray;
 }
 
-main div{
+main div#info, div#dados, div#total, div#troca{
     margin: 10px;
     border: 1px solid black;
     border-radius: 5px;
@@ -40,10 +40,43 @@ main div form input{
 }
 
 main div form input#submit{
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 main div form input#submit:hover{
     cursor: pointer;
     background-color: gray;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.479);
+}
+
+main div#info h2{
+    text-align: center;
+    margin: 5px 0px 15px 0px;
+}
+
+main div#info h3{
+    margin: 20px 0 2px 5px;
+}
+
+main div#info p{
+    margin: 0px 0 5px 5px;
+}
+
+main div#botoes{
+    display: flex;
+    flex-direction: column;
+}
+
+main div#botoes button{
+    height: 30px;
+    width: 250px;
+    margin: 10px auto 12px auto;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+main div#botoes button:hover{
+    cursor: pointer;
+    background-color: gray;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.479);
 }
