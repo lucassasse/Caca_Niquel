@@ -1,0 +1,9 @@
+main{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(127, 127, 127, 20%);
+    max-width: 1500px;
+    min-height: 500px;
+    margin: 5px auto 0px auto;
+    border: 2px solid gray;
+}

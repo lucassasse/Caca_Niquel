@@ -1,0 +1,49 @@
+main{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: rgba(127, 127, 127, 20%);
+    max-width: 1500px;
+    min-height: 500px;
+    margin: 5px auto 0px auto;
+    border: 2px solid gray;
+}
+
+main div{
+    margin: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+main div#info{
+    width: 350px;
+}
+
+main div#dados{
+    width: 350px;
+}
+
+main div form{
+    display: flex;
+    flex-direction: column;
+    margin: 5px 30px 5px 10px;
+}
+
+main div form label{
+    margin: 12px 0px 2px 0px;
+}
+
+main div form input{
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+main div form input#submit{
+    margin-top: 20px;
+}
+
+main div form input#submit:hover{
+    cursor: pointer;
+    background-color: gray;
+}
