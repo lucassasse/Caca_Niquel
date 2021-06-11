@@ -78,3 +78,6 @@ function trocarFichas(dinheiroLoja, fichasLoja){
         alert("Saldo insuficiente")
     )
 }
+
+
+
