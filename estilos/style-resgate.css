@@ -80,3 +80,10 @@ main div#botoes button:hover{
     background-color: gray;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.479);
 }
+
+/*Remover contador de números dos inputs*/
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
