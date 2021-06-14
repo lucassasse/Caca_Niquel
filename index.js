@@ -1,5 +1,3 @@
-//Implementar sistema de trofeus - 100 - 500 - 1k - 5k - 10k 100k
-
 var numeros = [0, 0, 0]
 var dinheiro = 250
 var fichas = 10
@@ -78,6 +76,3 @@ function trocarFichas(dinheiroLoja, fichasLoja){
         alert("Saldo insuficiente")
     )
 }
-
-let mudar = document.getElementById('imgh');
-mudar.style.height = "100px";
