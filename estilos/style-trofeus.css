@@ -22,12 +22,13 @@ main div#geral div.medalha{
     margin: 80px 30px;
 }
 
-main div#geral div.medalha div.img{
+/* main div#geral div.medalha div.img */
+#imgh{
     background-color: lightgray;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
     box-shadow: 2px 2px 3px rgba(161, 151, 151, 0.555);
-    filter: brightness(20%)
+    filter: brightness(20%);
 }
 
 main div#geral div.medalha div.p{

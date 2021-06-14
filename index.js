@@ -79,5 +79,5 @@ function trocarFichas(dinheiroLoja, fichasLoja){
     )
 }
 
-let mudar = document.getElementById('botoes');
-mudar.style.backgroundColor = "red";
+let mudar = document.getElementById('imgh');
+mudar.style.height = "100px";
